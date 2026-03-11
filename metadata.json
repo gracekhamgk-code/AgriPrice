@@ -1,0 +1,5 @@
+{
+  "name": "Myanmar AgriPrice Tracker",
+  "description": "A mobile-first agriculture price tracking application for Myanmar farmers with AI-driven insights and price alerts.",
+  "requestFramePermissions": ["microphone"]
+}
