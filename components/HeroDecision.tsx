@@ -57,10 +57,10 @@ const HeroDecision: React.FC<{ confidence?: number, advice?: string }> = ({ conf
             </div>
 
             <div className="text-center">
-              <h3 className="text-2xl font-black text-slate-900 mb-2 leading-tight">
+              <h3 className="text-lg font-black text-slate-900 mb-1 leading-tight">
                 {advice || "၈၅% ဈေးတက်ရန် အလားအလာရှိသည်။"}
               </h3>
-              <p className="text-sm text-slate-500 font-bold leading-relaxed px-4">
+              <p className="text-[11px] text-slate-500 font-bold leading-relaxed px-6">
                 အိန္ဒိယဝယ်လိုအား မြင့်တက်နေသောကြောင့် ခေတ္တစောင့်ဆိုင်းရန် အကြံပြုပါသည်။
               </p>
             </div>

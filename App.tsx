@@ -11,6 +11,7 @@ import CropSelection from './components/CropSelection';
 import CommunityGauge from './components/CommunityGauge';
 import MarketPage from './components/MarketPage';
 import VoiceChatOverlay from './components/VoiceChatOverlay';
+import BeanMarketTable from './components/BeanMarketTable';
 import { ALL_CROPS } from './constants';
 import { NavigationTab, CropPrice } from './types';
 import { BellRing, LayoutGrid, RefreshCcw, Mic, AlertCircle } from 'lucide-react';
@@ -104,6 +105,8 @@ const App: React.FC = () => {
             />
             
             <CommunityGauge />
+            
+            <BeanMarketTable />
             
             <section className="px-4 mt-10">
               <div className="flex justify-between items-end mb-6 px-1">
